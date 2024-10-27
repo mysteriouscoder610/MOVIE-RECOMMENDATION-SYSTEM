@@ -28,7 +28,7 @@ def recommend(movie):
 
 
 # Streamlit app title
-st.title('Movie Recommender System')
+st.title('MOVIE RECOMMENDATION SYSTEM')
 
 # Load movies data and similarity matrix
 movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
